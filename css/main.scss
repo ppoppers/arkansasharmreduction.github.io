@@ -1,0 +1,42 @@
+#app {
+  .naloxone {
+    max-width: 100%;
+    object-fit: cover;
+  }
+  h2.flex {
+    display: flex;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    img {
+      height: 1em;
+      margin-right: 1em;
+    }
+    list-style-type: none;
+    margin-bottom: 1em;
+    &:first-of-type {
+      margin-top: 1.5em;
+    }
+  }
+  .black-title .text {
+    margin-right: auto;
+  }
+  .volunteer {
+    display: inline-block;
+    margin-top: 40px;
+    > * {
+      margin-bottom: 2em;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      img {
+        height: 1em;
+        margin-right: 1em;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

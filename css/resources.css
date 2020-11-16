@@ -1,0 +1,7 @@
+#app .resources > *{
+  display: block;
+}
+#app h3 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
