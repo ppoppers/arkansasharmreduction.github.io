@@ -1,0 +1,8 @@
+#app h3 {
+  color: #4e4e4e;
+}
+@media (min-width: 960px) {
+  #app .myths p {
+    margin-left: 5em;
+  }
+}

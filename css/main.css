@@ -1,0 +1,32 @@
+#app .naloxone {
+  max-width: 100%;
+  object-fit: cover; }
+#app h2.flex {
+  display: flex; }
+#app li {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 1em; }
+  #app li img {
+    height: 1em;
+    margin-right: 1em; }
+  #app li:first-of-type {
+    margin-top: 1.5em; }
+#app .black-title .text {
+  margin-right: auto; }
+#app .volunteer {
+  display: inline-block;
+  margin-top: 40px; }
+  #app .volunteer > * {
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; }
+    #app .volunteer > * img {
+      height: 1em;
+      margin-right: 1em; }
+    #app .volunteer > *:last-child {
+      margin-bottom: 0; }
+
+/*# sourceMappingURL=main.css.map */
